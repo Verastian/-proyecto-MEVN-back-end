@@ -1,0 +1,190 @@
+[
+  {
+    "category": {
+      "name": "Equipos de computo",
+      "description": "Todos los equipos de computo"
+    },
+    "category2": {
+      "name": "Muebles de oficina",
+      "description": "Todos los muebles de oficina"
+    }
+  },
+  {
+    "article": {
+      "category": "",
+      "code": "45645",
+      "name": "Impresora Multifuncional G-3160",
+      "description": "MULTIFUNCIONALCANON G-3160 NEGRACANONG-3160 NEGRA",
+      "price_sale": "169.990",
+      "stock": "30"
+    },
+    "article2": {
+      "category": "",
+      "code": "12312",
+      "name": "Impresora Laser 107w",
+      "description": "IMPRESORA LASER MONOCROMATICA",
+      "price_sale": "59000",
+      "stock": "10"
+    }
+  },
+  {
+    "user": {
+      "rol": "admin",
+      "name": "verastian",
+      "documentType": "dni",
+      "documentNum": "45457",
+      "address": "chile cjico 123",
+      "phone": "15489456",
+      "email": "admin@prueba.lo",
+      "password": "admin"
+    },
+    "user2": {
+      "rol": "almacen",
+      "name": "Julio Osso",
+      "documentType": "dni",
+      "documentNum": "12485",
+      "address": "ejercitto 333",
+      "phone": "123458792",
+      "email": "almacen@prueba.lo",
+      "password": "almacen"
+    },
+    "user3": {
+      "rol": "vendedor",
+      "name": "Javiera Velez",
+      "documentType": "dni",
+      "documentNum": "96369",
+      "address": "paris 1523",
+      "phone": "321656336",
+      "email": "vende@prueba.lo",
+      "password": "vende"
+    }
+  },
+  {
+    "person": {
+      "personType": "Providers",
+      "name": "Federico",
+      "documentType": "dni",
+      "documentNum": "65659",
+      "address": "gabriela 8977",
+      "phone": "1214547878",
+      "email": "fede@prueba.lo"
+    },
+    "person2": {
+      "personType": "Client",
+      "name": "Juan Perez",
+      "documentType": "dni",
+      "documentNum": "36565",
+      "address": "Pintora 564",
+      "phone": "98978458",
+      "email": "perez@prueba.lo"
+    }
+  },
+  {
+    "income": {
+      "user": {
+        "_id": "60613f03239b3961b8b1390d"
+      },
+      "person": {
+        "_id": "60624cd1f29b9926107a8bd4"
+      },
+      "voucherType": "Factura",
+      "voucherSeries": "001",
+      "voucherNum": "00002",
+      "tax": "0.18",
+      "total": "60",
+      "details": [
+        {
+          "_id": "60612a15b86f92234c35686c",
+          "article": "impresora Kyocera MLX 2000",
+          "amount": "2",
+          "price": "30"
+        },
+        {
+          "_id": "606116b4daa3664f88825419",
+          "article": "impresora LX 200 Epson",
+          "amount": "5",
+          "price": "30"
+        }
+      ]
+    }
+  },
+  {
+    "sales": {
+      "user": {
+        "_id": "6067a0cafc799934742d5d32"
+      },
+      "person": {
+        "_id": "6067a264abbce92e78d8061f"
+      },
+      "voucherType": "Factura",
+      "voucherSeries": "002",
+      "voucherNum": "00003",
+      "tax": "0.18",
+      "total": "300",
+      "details": [
+        {
+          "_id": "6067a1ffabbce92e78d8061c",
+          "article": "Impresora Multifuncional G-3160",
+          "amount": "1",
+          "price": "169990",
+          "discount": "10"
+        },
+        {
+          "_id": "6067a233abbce92e78d8061d",
+          "article": "Impresora Laser 107w",
+          "amount": "2",
+          "price": "118000",
+          "discount": "20"
+        }
+      ]
+    }
+  },
+  {
+    "usuario": {
+      "_id": "6064f863aecfc13d686138d5"
+    },
+    "persona": {
+      "_id": "6064fa96f8b7566634d73ae2"
+    },
+    "tipo_comprobante": "Factura",
+    "serie_comprobante": "001",
+    "num_comprobante": "00002",
+    "impuesto": "0.18",
+    "total": "60",
+    "detalles": [
+      {
+        "_id": "606501cbf8b7566634d73ae6",
+        "articulo": "impresora Kyocera MLX 2000",
+        "cantidad": "2",
+        "precio": "30"
+      },
+      {
+        "_id": "606500d1f8b7566634d73ae4",
+        "articulo": "impresora LX 200 Epson",
+        "cantidad": "5",
+        "precio": "30"
+      }
+    ]
+  },
+  {
+    "tipo_persona": "Proveedor",
+    "nombre": "Robert tito",
+    "tipo_documento": "dni",
+    "num_documento": "89789",
+    "direccion": "yerba buena 4566",
+    "telefono": "65951591",
+    "email": "rtito@prueba.cl"
+  },
+  {
+    "estado": 1,
+    "_id": "606501cbf8b7566634d73ae6",
+    "stock": 10,
+    "categoria": "606500d1f8b7566634d73ae4",
+    "codigo": "123456789",
+    "nombre": "impresora LX 200 Epson",
+    "descripcion": "impresora multifuncional",
+    "precio_venta": 200,
+    "createdAt": "2021-03-31T23:12:11.917Z",
+    "__v": 0
+  }
+]
